@@ -1,0 +1,12 @@
+# Standards: 1.2
+---
+# @var citrix_version:description: Version for the package
+citrix_version: 23.3.0.32
+
+# @var citrix_arch:description: Architecture for the package
+citrix_arch: amd64
+
+# @var citrix_package:description: Download URL for the package to install
+citrix_package: "https://dl.webhippie.de/misc/citrix-workspace_{{ citrix_version }}_{{ citrix_arch }}.deb"
+
+...
